@@ -1,0 +1,24 @@
+# 本地 Terraform 目录
+**/.terraform/*
+
+# 状态文件（永远不要提交）
+*.tfstate
+*.tfstate.*
+
+# 变量文件（通常含敏感信息）
+*.tfvars
+*.tfvars.json
+
+# 崩溃日志
+crash.log
+crash.*.log
+
+# 覆盖文件
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI 配置文件
+.terraformrc
+terraform.rc
